@@ -29,5 +29,5 @@ python tools/test.py \
     [--out ${RESULT_FILE}] \
     [--eval ${EVAL_METRICS}] \
 
-python tools/train.py C:/git_projects/mmdetection/configs/yolof/yolof_r50_c5_8x8_1x_coco_my.py
+python tools/train.py configs/yolof/yolof_r50_c5_8x8_1x_coco_my.py --ann_file ~/datasets/maayan_room_1/annotations/instances_default.json
 '''
